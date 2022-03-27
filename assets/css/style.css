@@ -2,4 +2,21 @@ body {
     /* outline: 1px solid red; */
     font-family: 'Raleway';
     font-weight: 300;
+    color: #fff !important;
+    background-color: #000 !important;
 }
+
+.navbar, 
+#quienes-somos .quienes-somos-icono, 
+#destacados .card-body, 
+[type="submit"], 
+#footer { 
+  background-color: #17a3b8 !important;
+}
+
+.quienes-somos-icono {
+  font-size: 1.5rem;
+}
+
+/* #318d9a */
+/* #2f9ea9 */
