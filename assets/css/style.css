@@ -23,6 +23,10 @@ body {
   text-align: justify;
 }
 
+#footer a { 
+  color: white !important;
+}
+
 
 /* #318d9a */
 /* #2f9ea9 */
