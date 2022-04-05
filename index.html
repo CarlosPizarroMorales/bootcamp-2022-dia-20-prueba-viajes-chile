@@ -38,8 +38,8 @@
   <!-- Proyecto realizado para viewports 1280 y 320 (iPhone 5/SE) -->
   
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark"> <!-- TODO: cambiar color fondo -->
-    <div class="container-xs-fluid container-md"> <!-- ? fluid para 320, con margin desde md -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container-fluid container-md">
       <a class="navbar-brand" href="#">
         <img src="./assets/img/viajes.png" alt="Logo de la empresa de viajes">
         Viajes Chile</a>
@@ -47,7 +47,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav ms-auto">
           <li class="nav-item">
             <a class="nav-link" aria-current="page" href="#">Inicio</a>
           </li>
@@ -89,31 +89,31 @@
   </div>
 
   <!-- Quienes somos -->
-  <!-- ! sin importar la eleccion, los contenedores deben estar perfectamente alineados UNA SOLA POLITICA -->
-  <main class="container" id="quienes-somos"> 
-    <h2 class="text-center">¿QUIÉNES SOMOS?</h2>
+  <!-- ! sin importar la eleccion, los contenedores deben estar alineados UNA SOLA POLÍTICA DE MÁRGENES -->
+  <main class="container pt-4 mt-2" id="quienes-somos"> 
+    <h2 class="text-center pb-5">¿QUIÉNES SOMOS?</h2>
     <div class="row row-cols-1 row-cols-md-3 g-4">
       <div class="col">
         <p class="quienes-somos-icono text-center"><i class="fa-solid fa-plane py-2"></i></p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, dolorem alias nisi expedita aliquid quibusdam assumenda nam hic consequatur quidem ipsam iure earum deserunt modi id quaerat! Hic, numquam adipisci.</p>
+        <p class="quienes-somos__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptatem adipisci, sit perferendis eaque quia quidem quos corrupti nesciunt laboriosam culpa deserunt illo nobis aliquam ea numquam? Consequuntur, harum iure? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, dolorem alias nisi expedita aliquid quibusdam assumenda nam hic consequatur quidem ipsam iure earum deserunt modi id quaerat! Hic, numquam adipisci.</p>
       </div>
       <div class="col">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, dolorem alias nisi expedita aliquid quibusdam assumenda nam hic consequatur quidem ipsam iure earum deserunt modi id quaerat! Hic, numquam adipisci.</p>
+        <p class="quienes-somos__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptatem adipisci, sit perferendis eaque quia quidem quos corrupti nesciunt laboriosam culpa deserunt illo nobis aliquam ea numquam? Consequuntur, harum iure? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, dolorem alias nisi expedita aliquid quibusdam assumenda nam hic consequatur quidem ipsam iure earum deserunt modi id quaerat! Hic, numquam adipisci.</p>
         <p class="quienes-somos-icono text-center"><i class="fa-solid fa-mountain py-2"></i></p>
       </div>
       <div class="col">
         <p class="quienes-somos-icono text-center"><i class="fa-solid fa-route py-2"></i></p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, dolorem alias nisi expedita aliquid quibusdam assumenda nam hic consequatur quidem ipsam iure earum deserunt modi id quaerat! Hic, numquam adipisci.</p>
+        <p class="quienes-somos__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptatem adipisci, sit perferendis eaque quia quidem quos corrupti nesciunt laboriosam culpa deserunt illo nobis aliquam ea numquam? Consequuntur, harum iure? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, dolorem alias nisi expedita aliquid quibusdam assumenda nam hic consequatur quidem ipsam iure earum deserunt modi id quaerat! Hic, numquam adipisci.</p>
       </div>
     </div>
   </main>
 
   <!-- Destacados -->
-  <section class="container" id="destacados">
-    <h2 class="text-center">DESTACADOS</h2>
-    <div class="row row-cols-1 row-cols-4 g-4">
-      <div class="col h-100">
-        <div class="card">
+  <section class="container pt-4 mt-2" id="destacados">
+    <h2 class="text-center pb-4">DESTACADOS</h2>
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+      <div class="col">
+        <div class="card h-100">
           <img src="./assets/img/card1.jpg" alt="Paisaje frio. Montañas y nubes a lo lejos con lago y bosques en primer plano">
           <div class="card-body">
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -148,8 +148,8 @@
   </section>
 
   <!-- Contacto -->
-  <section class="container" id="contacto">
-    <h2 class="text-center">CONTACTO</h2>
+  <section class="container py-5 mt-3" id="contacto">
+    <h2 class="text-center mb-4">CONTACTO</h2>
     <form>
       <div class="mb-3">
         <label for="nombre" class="form-label">Nombre</label>
@@ -160,21 +160,25 @@
         <input type="text" class="form-control" id="asunto">
       </div>
       <div class="mb-3">
-        <label for="mensaje"></label>
-        <textarea id="mensaje" placeholder="Escriba su mensaje acá..."></textarea>
+        <label for="mensaje">Mensaje</label>
+        <textarea class="form-control" id="mensaje" rows="7" placeholder="Escriba su mensaje acá..."></textarea>
       </div>
       <button type="submit" class="btn btn-primary ms-0">Enviar</button>
     </form>
+  </section>
 
     <!-- Footer -->
-    <footer id="footer">
-      <div class="container-fluid container-md d-flex justify-content-around">
-        <p>VIAJES CHILE</p>
-        <p><i class="fa-brands fa-github-square fa-3x"></i><i class="fa-brands fa-linkedin fa-3x"></i><i class="fa-brands fa-twitter-square fa-3x"></i><i class="fa-brands fa-facebook-square fa-3x"></i></p>
+    <footer class="container-fluid pt-4" id="footer">
+      <div class="container d-flex justify-content-around">
+        <p class="fs-4">VIAJES CHILE</p>
+        <p class="ms-auto">
+          <i class="fa-brands fa-github-square fa-2x mx-0 mx-md-2"></i>
+          <i class="fa-brands fa-linkedin fa-2x  mx-0 mx-md-2"></i>
+          <i class="fa-brands fa-twitter-square fa-2x  mx-0 mx-md-2"></i>
+          <i class="fa-brands fa-facebook-square fa-2x  mx-0 mx-md-2"></i>
+        </p>
       </div>
     </footer>
-  </section>
- text-center
   <!-- Script para jQuery 3.6.0 por CDN -->
   <!-- Eliminar si no es necesario -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>

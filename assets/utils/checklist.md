@@ -35,3 +35,5 @@ Es el frontend de un sitio web que simula una agencia de viajes. Esta vez no hay
 
 * Enlace a [maqueta](www.google.com)
 
+
+1. dejar fijo el navbar
