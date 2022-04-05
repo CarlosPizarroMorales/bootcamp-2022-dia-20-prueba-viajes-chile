@@ -23,7 +23,9 @@ body {
   text-align: justify;
 }
 
-#footer a { 
+#footer a,
+#footer a:active,
+#footer a:hover { 
   color: white !important;
 }
 
