@@ -2,21 +2,21 @@
 
 Es el frontend de un sitio web que simula una agencia de viajes. Esta vez no hay maqueta, solo una imagen y tampoco el requerimiento de hacer un sitio móvil de este (es de implementación libre). Algunas consideraciones generales del desafio: 
 
-- Tener navbar fija en tope de vista, con logo y enlaces a las secciones de la página, usando smooth scroll.
-- Tener un carousel con las imágenes suministradas para ello.
-- Tener una sección de presentación con favicons (literal, se refiere a íconos tipo Fontawesome) y 3 párrafos. Esta debe desaparecer en tamaños pequeños de pantalla.
-- Tener una sección de destacados con 4 cards con la imagen e información asociada.
-- Tener una sección de formulario de contacto.
-- Tener un footer con links a las redes sociales.
+- Tener navbar fija en tope de vista (OK), con logo y enlaces a las secciones de la página (OK), usando smooth scroll.(OK)
+- Tener un carousel con las imágenes suministradas para ello.(OK)
+- Tener una sección de presentación con favicons (literal, se refiere a íconos tipo Fontawesome) y 3 párrafos. (OK) Esta debe desaparecer en tamaños pequeños de pantalla. (OK)
+- Tener una sección de destacados con 4 cards con la imagen e información asociada. (OK)
+- Tener una sección de formulario de contacto. (OK)
+- Tener un footer con links a las redes sociales. (OK)
 
 ## Requisitos evaluados: 
 |Estado|Requisito|
 |:-------:|:------:|
-|...|1. Construir página usando HTML. Etiquetas semánticas, organización de directorio y carga de archivos.|
-|...|2. Usar CSS: usar selectores de clase semánticamente relevantes. Google Fonts, Fontawesome. Documentado, indentado y ordenado|
-|...|3. Usar BS: integración del CDN, 3 componentes sin JS, uso de grilla y utilities. Documentar versión.|
-|...|4. BS componentes con JS: usar 2 o más componentes con JS (carousel, tooltips), codigo ordenado y documentado.|
-|...|5. Usar git-GitHub: git init y mínimo 5 commits. Implementar repo remoto en Github. Crear Github page del proyecto.|
+| OK |1. Construir página usando HTML. Etiquetas semánticas, organización de directorio y carga de archivos.|
+| OK |2. Usar CSS: usar selectores de clase semánticamente relevantes. Google Fonts, Fontawesome. Documentado, indentado y ordenado|
+| OK |3. Usar BS: integración del CDN, 3 componentes sin JS, uso de grilla y utilities. Documentar versión.|
+| OK |4. BS componentes con JS: usar 2 o más componentes con JS (carousel, tooltips), codigo ordenado y documentado.|
+| |5. Usar git-GitHub: git init y mínimo 5 commits. Implementar repo remoto en Github. Crear Github page del proyecto.|
 
 
 * **Tipografía** 
