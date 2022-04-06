@@ -16,7 +16,7 @@ Es el frontend de un sitio web que simula una agencia de viajes. Esta vez no hay
 | OK |2. Usar CSS: usar selectores de clase semánticamente relevantes. Google Fonts, Fontawesome. Documentado, indentado y ordenado|
 | OK |3. Usar BS: integración del CDN, 3 componentes sin JS, uso de grilla y utilities. Documentar versión.|
 | OK |4. BS componentes con JS: usar 2 o más componentes con JS (carousel, tooltips), codigo ordenado y documentado.|
-| |5. Usar git-GitHub: git init y mínimo 5 commits. Implementar repo remoto en Github. Crear Github page del proyecto.|
+| OK |5. Usar git-GitHub: git init y mínimo 5 commits. Implementar repo remoto en Github. Crear Github page del proyecto.|
 
 
 * **Tipografía** 
@@ -25,13 +25,13 @@ Es el frontend de un sitio web que simula una agencia de viajes. Esta vez no hay
   * #000
   * #17a3b8 (tomado con pickcolor en Gimp)
 * **Íconos:**
-  * <i class="fa-solid fa-plane"></i>
-  * <i class="fa-solid fa-mountain"></i>
-  * <i class="fa-solid fa-route"></i>
-  * <i class="fa-brands fa-github-square"></i>
-  * <i class="fa-brands fa-linkedin"></i>
-  * <i class="fa-brands fa-twitter-square"></i>
-  * <i class="fa-brands fa-facebook-square"></i>
+  * `<i class="fa-solid fa-plane"></i>`
+  * `<i class="fa-solid fa-mountain"></i>`
+  * `<i class="fa-solid fa-route"></i>`
+  * `<i class="fa-brands fa-github-square"></i>`
+  * `<i class="fa-brands fa-linkedin"></i>`
+  * `<i class="fa-brands fa-twitter-square"></i>`
+  * `<i class="fa-brands fa-facebook-square"></i>`
 
 * Maqueta ![maqueta](./img/modelo-maqueta.png)
 

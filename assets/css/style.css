@@ -1,5 +1,4 @@
 body {
-    /* outline: 1px solid red; */
     scroll-behavior: smooth;
     font-family: 'Raleway';
     font-weight: 300;
@@ -28,7 +27,3 @@ body {
 #footer a:hover { 
   color: white !important;
 }
-
-
-/* #318d9a */
-/* #2f9ea9 */
